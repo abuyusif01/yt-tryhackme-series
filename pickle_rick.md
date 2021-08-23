@@ -1,29 +1,30 @@
-`export ip=10.10.50.184`
+`export ip=10.10.50.184`</br> </br>
 
-# Scanning result
+# Scanning result</br>
 
-PORT STATE SERVICE 
-22/tcp open ssh 
-80/tcp open http 
-MAC Address: 02:97:C5:68:EB:0D (Unknown)
-
-# Creds
-
-login.php --> R1ckRul3s:
-
-# gobuster
-
-`gobuster dir -u $ip -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,bak,zip,txt`
-/login.php (Status: 200)
-/assets (Status: 301)
-/portal.php (Status: 302)
-/robots.txt (Status: 200)
-/denied.php (Status: 302) 
-/server-status (Status: 403)
-/clue.txt (Status: 200)
-
-# flags
-
-flag1:mr. meeseek hair 
-flag2:1 jerry tear 
-flag3:fleeb juice
+</br>
+PORT STATE SERVICE </br>
+22/tcp open ssh </br>
+80/tcp open http </br>
+MAC Address: 02:97:C5:68:EB:0D (Unknown)</br>
+</br>
+# Creds</br>
+</br>
+login.php --> R1ckRul3s:</br>
+</br>
+# gobuster</br>
+</br>
+`gobuster dir -u $ip -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,bak,zip,txt`</br>
+/login.php (Status: 200)</br>
+/assets (Status: 301)</br>
+/portal.php (Status: 302)</br>
+/robots.txt (Status: 200)</br>
+/denied.php (Status: 302) </br>
+/server-status (Status: 403)</br>
+/clue.txt (Status: 200)</br>
+</br>
+# flags</br>
+</br>
+flag1:mr. meeseek hair </br>
+flag2:1 jerry tear </br>
+flag3:fleeb juice</br>
