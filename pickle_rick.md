@@ -7,7 +7,7 @@ Address: 02:97:C5:68:EB:0D (Unknown)</br> </br>
 
 # Creds
 
-login.php --> R1ckRul3s: </br>
+login.php => R1ckRul3s:Wubbalubbadubdub </br>
 
 # gobuster
 
